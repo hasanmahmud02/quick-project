@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border-bottom: 1px solid #cecece;
+}
+.header{
+    width: 90%;
+    margin-left: 5%;
+    padding: 20px 0;
+    overflow: hidden;
+}
+.logo{
+width: 20%;
+float: left;
+}
+.logo img{
+    width: 116px;
+}
+nav{
+    width: 40%;
+    float: right;
+}
+nav ul{
+    list-style: none;
+    margin-top: 9px;
+}
+nav ul li{
+    float: left;
+    margin-left: 34px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #545967;
+    text-transform: capitalize;
+}
+
+.content-section{
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    padding: 40px 0;
+    font-family: 'Roboto';
+}
+.content-section h1{
+    font-size: 45px;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: #3f3c58;
+}
+.content-section h2{
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #0c85fa;
+    padding: 10px 0px;
+}
+.content-section p{
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+
+.success{
+padding: 40px 0;
+width: 70%;
+margin: auto;
+overflow: hidden;
+}
+.left-content{
+
+width: 48%;
+
+float: left;
+}
+.left-content h1{
+
+text-align: right;
+
+font-size: 50px;
+
+color: #E85164;
+}
+.left-content p{
+text-align: justify;
+font-family: 'Roboto';   
+font-size: 18px;
+}
+.right-content{
+width: 48%;
+float: right;
+}
+.right-content h1{
+font-size: 46px;
+color: #3d3a53;
+}
+
+
+.feature{
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+    padding: 40px 0;
+}
+.item-1  {width: 27%;float: left;margin: auto;text-align: center;padding: 64px 20px;background-color: #feebed;}
+
+.item-1 img , .item-2 img, .item-3 img {margin: auto;text-align: center;width: 250px;}
+
+ .item-1 h2, .item-2 h2,.item-3 h2 {text-align: left;font-family: 'Roboto';padding: 10px 0;}
+.item-1 p, .item-2 p,.item-3 p{text-align: left;font-family: 'Roboto';font-size: 16px;}
+
+
+.item-2 {width: 27%;/* margin: auto; */float: left;margin-left: 5%;text-align: center;padding: 70px 20px;background-color: #eaf9f4;}
+.item-3 {
+
+width: 26%;
+
+text-align: center;
+
+float: right;
+
+padding: 60px 20px;
+
+background-color: #fff7eb;
+}
+
+.footer{
+
+}
+.copyright{
+
+background-color: #018AFD;
+
+padding: 40px 0;
+
+text-align: center;
+}
+.copyright p{
+
+font-size: 16px;
+
+color: rgb(235, 235, 235);
+} 
+.copyright span{
+
+color: rgb(255 255 255);
+
+font-size: 16px;
+
+/* font-family: 'Roboto'; */
+
+font-weight: bolder;
+} 
